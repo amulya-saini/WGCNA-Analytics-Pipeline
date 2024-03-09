@@ -3,11 +3,11 @@
 This GitHub repository contains a comprehensive WGCNA pipeline for analyzing gene expression data and extracting meaningful biological insights. The pipeline covers data loading, pre-processing, soft threshold selection, hierarchical clustering, module identification, and Module-Trait Relationship analysis.
 
 ## Key Features:
-Data Loading and Pre-processing:
+<h2 style="color: blue;">Data Loading and Pre-processing:</h2>
 
 Load gene expression and traits data from CSV files.
 Handle missing values, set appropriate row/column names, and perform necessary data transformations.
-Soft Threshold Selection:
+<h2 style="color: blue;">Soft Threshold Selection:</h2>
 
 Choose an optimal soft-thresholding power using network topology analysis.
 Visualize the scale-free topology model fit and mean connectivity for different soft-thresholding powers.
