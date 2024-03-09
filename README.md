@@ -7,21 +7,26 @@ This GitHub repository contains a comprehensive WGCNA pipeline for analyzing gen
 
 Load gene expression and traits data from CSV files.
 Handle missing values, set appropriate row/column names, and perform necessary data transformations.
+
 **Soft Threshold Selection:**
 
 Choose an optimal soft-thresholding power using network topology analysis.
 Visualize the scale-free topology model fit and mean connectivity for different soft-thresholding powers.
+
 **Gene Clustering:**
 
 Perform hierarchical clustering on the dissimilarity matrix derived from the Topological Overlap Matrix (TOM).
 Identify gene modules using a dynamic tree-cut approach and visualize them on a dendrogram.
+
 **Module Eigengenes:**
 
 Calculate module eigengenes representing overall gene expression patterns within each module.
 Cluster module eigengenes and visualize the dynamic relationships between them.
+
 **Merging Modules:**
 
 Automatically merge gene modules based on a dissimilarity threshold, providing a hierarchical structure of gene expression data.
+
 **Module-Trait Relationship Analysis:**
 
 Assess the correlation between module eigengenes and external traits.
