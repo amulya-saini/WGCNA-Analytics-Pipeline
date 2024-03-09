@@ -1,8 +1,8 @@
 # Weighted Gene Co-expression Network Analysis (WGCNA) Pipeline
-Overview:
+## Overview:
 This GitHub repository contains a comprehensive WGCNA pipeline for analyzing gene expression data and extracting meaningful biological insights. The pipeline covers data loading, pre-processing, soft threshold selection, hierarchical clustering, module identification, and Module-Trait Relationship analysis.
 
-Key Features:
+## Key Features:
 Data Loading and Pre-processing:
 
 Load gene expression and traits data from CSV files.
