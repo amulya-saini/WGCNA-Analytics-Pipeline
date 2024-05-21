@@ -11,12 +11,12 @@ library("magrittr")
 library("tidyr")
 
 # loading the expression data
-exp_data <- read.csv("C:\\Users\\saini\\Downloads\\HW03_expression.csv", header = TRUE)
+exp_data <- read.csv("C:\\Users\\saini\\Downloads\\expression.csv", header = TRUE)
 View(exp_data)
 dim(exp_data)
 
 # loading the Traits data
-traits_data <- read.csv("C:\\Users\\saini\\Downloads\\HW03_traits.csv", header = TRUE)
+traits_data <- read.csv("C:\\Users\\saini\\Downloads\\Traits.csv", header = TRUE)
 View(traits_data)
 dim(traits_data)
 
